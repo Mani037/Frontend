@@ -1,0 +1,50 @@
+
+.img-fluid{
+    padding: 5px;
+    border-radius: 10px;
+}
+#button{
+    border-radius: 15px;
+  background: transparent;
+  background-color:#dcdcdc97;
+  border: 10px gainsboro;
+  cursor: pointer;
+}
+.title{
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top{
+    text-align: center;
+}
+.top button{
+    border-radius: 15px;
+    background-color: #dcdcdc97;
+    border: gainsboro;
+    cursor: pointer;
+}
+.container img{
+     column-gap: 10px;
+}
+@media screen and (max-width:500px){
+    .title{
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    .end{
+        width: 100%;
+        text-align: center;
+    }
+}        
+    @media screen and (max-width:500px){
+       .container .container img-fluid{
+        justify-content: center;
+    }
+    }
+
